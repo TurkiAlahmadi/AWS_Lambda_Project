@@ -6,9 +6,6 @@ sudo apt install python3.8 -y
 sudo apt install awscli -y
 
 # create virtual environment
-#sudo apt install python3-virtualenv -y
-#virtualenv --python="/usr/bin/python3.8" venv  
-#source venv/bin/activate 
 python3 -m venv venv
 source venv/bin/activate
 
